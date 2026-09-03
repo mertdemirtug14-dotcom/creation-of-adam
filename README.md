@@ -1,4 +1,4 @@
-# Creation of Universe - GRUB Theme
+# Creation of Adam - GRUB Theme
 
 ### The Story Behind This
 
@@ -16,13 +16,13 @@ The quote *"From Dust and Spark, We Rise"* is all about how the universe starts 
 
 1. Clone the repository or download the source code:
    ```bash
-   git clone https://github.com/dirgaydtm/creation-of-universe.git
+   git clone https://github.com/dirgaydtm/creation-of-adam.git
    ```
 
 2. Copy the theme directory to your GRUB themes folder (creating the directory if it doesn't exist):
    ```bash
    sudo mkdir -p /boot/grub/themes
-   sudo cp -r creation-of-universe /boot/grub/themes/
+   sudo cp -r creation-of-adam /boot/grub/themes/
    ```
 
 3. Edit your GRUB configuration file:
@@ -32,7 +32,7 @@ The quote *"From Dust and Spark, We Rise"* is all about how the universe starts 
 
 4. Add or modify the following line in `/etc/default/grub` to point to the `theme.txt` file:
    ```text
-   GRUB_THEME="/boot/grub/themes/creation-of-universe/theme.txt"
+   GRUB_THEME="/boot/grub/themes/creation-of-adam/theme.txt"
    ```
 
 5. Update GRUB to apply the changes:
